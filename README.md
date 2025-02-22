@@ -23,6 +23,7 @@
 - [Key Visualizations](#key-visualizations)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact Information](#contact-information)
 
 ## 💻 Installation
 ```bash
