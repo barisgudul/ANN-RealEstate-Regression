@@ -13,7 +13,7 @@
 - **Robust Data Preprocessing**: Automated missing value handling & feature engineering
 - **Deep Neural Architecture**: 4-layer ANN with dropout regularization
 - **Optimized Training**: Early stopping & learning rate scheduling
-- **Comprehensive Evaluation**: MAE = $15,616.84 | R² = 0.89
+- **Comprehensive Evaluation**: MAE = $15,616.84 | R² = 0.92
 - **Production-Ready**: Full pipeline from raw data to predictions
 
 ## 📋 Table of Contents
@@ -58,12 +58,12 @@ Non-trainable params: 0
 | Metric               | Training | Validation | Test Set    |
 |----------------------|----------|------------|-------------|
 | MAE (USD)            | 12,916   | 18,000     | **15,617**  |
-| R² Score             | 0.91     | 0.88       | **0.89**    |
+| R² Score             | 0.91     | 0.88       | **0.92**    |
 | Training Time/epoch  | 7ms      | -          | -           |
 
 **Key Insights:**
 - 🏆 Best Performance: 15,617 MAE on Test Set (≈ 6.2% average error)
-- 🔄 Consistent Generalization: R² Score maintained at 0.89 on unseen data
+- 🔄 Consistent Generalization: R² Score maintained at 0.92 on unseen data
 - ⚡ Efficient Training: 7ms/epoch (NVIDIA T4 GPU acceleration)
 - ➖ N/A: Validation not tracked for training time
 
@@ -73,7 +73,7 @@ Non-trainable params: 0
 ![Actual vs Predicted](ANN-RealEstate-Regression/Results/Actual_vs_Predicted.png)
 
 **Analysis:**
-- Shows strong correlation between predicted and actual home values (R² = 0.89)
+- Shows strong correlation between predicted and actual home values (R² = 0.92)
 - Red dashed line represents perfect predictions
 - Majority of points cluster tightly around the ideal line
 - **Key Insight:** Model performs best in $100k-$300k price range
